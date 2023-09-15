@@ -5,6 +5,7 @@ import com.lcwd.user.service.external.services.RatingService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.http.ResponseEntity;
 
 @SpringBootTest
 class UserServiceApplicationTests {
@@ -18,7 +19,7 @@ class UserServiceApplicationTests {
 //	@Test
 //	void createRating(){
 //		Rating rating = Rating.builder().rating(5).userId(" ").hotelId("").feedback("this is created using feign client").build();
-//		Rating saveRating = ratingService.createRating(rating);
+//		ResponseEntity<Rating> saveRating = ratingService.createRating(rating);
 //		System.out.println("new rating created");
 //	}
 
