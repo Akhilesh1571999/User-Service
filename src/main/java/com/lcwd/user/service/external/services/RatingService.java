@@ -13,8 +13,6 @@ import org.springframework.web.bind.annotation.PutMapping;
 @FeignClient(name = "RATING-SERVICE")
 public interface RatingService {
 
-
-
     @PostMapping("/ratings")
     public ResponseEntity <Rating> createRating(Rating values) ;
 
