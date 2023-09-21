@@ -1,7 +1,6 @@
 package com.lcwd.user.service.entities;
 
 import lombok.*;
-
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -10,8 +9,8 @@ import java.util.List;
 
 @Getter
 @Setter
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 @Builder
 @Data
 @Entity
@@ -29,7 +28,5 @@ public class User {
 
     @Transient
     private List<Rating> ratings = new ArrayList<>();
-
-
 
 }
